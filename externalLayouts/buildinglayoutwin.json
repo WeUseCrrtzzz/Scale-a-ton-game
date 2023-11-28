@@ -1,0 +1,51 @@
+{
+  "associatedLayout": "Building",
+  "name": "BuildingLayoutWin",
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "layer": "",
+      "name": "Win",
+      "persistentUuid": "e04ec2f3-d62a-4a47-91f5-48cfeadd84cc",
+      "width": 64,
+      "x": 640,
+      "y": 512,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "1b9f0071-eda4-4142-972f-e191824a7af5",
+      "width": 1280,
+      "x": 640,
+      "y": 736,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "editionSettings": {
+    "grid": true,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": true,
+    "zoomFactor": 0.7130377630690397,
+    "windowMask": false
+  }
+}

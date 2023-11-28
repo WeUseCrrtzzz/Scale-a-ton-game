@@ -1,0 +1,3736 @@
+{
+  "b": 255,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "Fish",
+  "name": "Fish",
+  "r": 125,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 223,
+  "uiSettings": {
+    "grid": true,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": true,
+    "zoomFactor": 0.6672773998329979,
+    "windowMask": false
+  },
+  "objectsGroups": [
+    {
+      "name": "Group",
+      "objects": [
+        {
+          "name": "NewSprite2"
+        },
+        {
+          "name": "NewSprite3"
+        }
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "folded": true,
+      "name": "Variable",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "RandomLevel",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "Yes",
+      "type": "number",
+      "value": 0
+    }
+  ],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 256,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "87b67cf1-53d4-4aa6-8a72-8c2aa9e3e23f",
+      "width": 512,
+      "x": 640,
+      "y": 360,
+      "zOrder": -5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "NewSprite4",
+      "persistentUuid": "88be8288-e33a-499d-9c4f-d2085d01d8e8",
+      "width": 0,
+      "x": 64,
+      "y": 672,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "NewSprite5",
+      "persistentUuid": "7b27b149-1f7d-4f47-9a95-aafc16873d02",
+      "width": 0,
+      "x": 1216,
+      "y": 672,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "ScoreText",
+      "persistentUuid": "d266c75d-30fd-4c9c-abb2-8bb48eaee745",
+      "width": 0,
+      "x": 32,
+      "y": 32,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "TimerBar",
+      "persistentUuid": "6fc574a7-81a3-4f3e-b318-ba0519321b29",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 315,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "NewSprite7",
+      "persistentUuid": "59238147-9ccf-40ae-a28d-be91072757e2",
+      "width": 0,
+      "x": 1216,
+      "y": 672,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 57,
+      "layer": "Tutorial",
+      "name": "TutorialText",
+      "persistentUuid": "3a49b1cf-a50f-4011-8c99-222d01f7a438",
+      "width": 1280,
+      "x": 0,
+      "y": 647,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Layer",
+      "name": "Transitions",
+      "persistentUuid": "44578666-ae0a-454e-a12f-1785b7b1af44",
+      "width": 0,
+      "x": 768,
+      "y": 864,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "NewSprite9",
+      "persistentUuid": "9602870b-ae3e-4b51-9542-3b85bcf8cf46",
+      "width": 0,
+      "x": 1104,
+      "y": 592,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite32",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 64,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 27.5
+                      },
+                      {
+                        "x": 38,
+                        "y": 16
+                      },
+                      {
+                        "x": 45.5,
+                        "y": 8.5
+                      },
+                      {
+                        "x": 60,
+                        "y": 2.5
+                      },
+                      {
+                        "x": 71.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 89,
+                        "y": 0
+                      },
+                      {
+                        "x": 105.5,
+                        "y": 4.5
+                      },
+                      {
+                        "x": 115.5,
+                        "y": 9.5
+                      },
+                      {
+                        "x": 123,
+                        "y": 18
+                      },
+                      {
+                        "x": 128,
+                        "y": 27
+                      },
+                      {
+                        "x": 128,
+                        "y": 36.5
+                      },
+                      {
+                        "x": 124.5,
+                        "y": 44.5
+                      },
+                      {
+                        "x": 117.5,
+                        "y": 52.5
+                      },
+                      {
+                        "x": 107,
+                        "y": 58.5
+                      },
+                      {
+                        "x": 89,
+                        "y": 64
+                      },
+                      {
+                        "x": 71,
+                        "y": 64
+                      },
+                      {
+                        "x": 61,
+                        "y": 62
+                      },
+                      {
+                        "x": 44.5,
+                        "y": 54
+                      },
+                      {
+                        "x": 37,
+                        "y": 47
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 37
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "NewSprite2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Draggable",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite33",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite66",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite67",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 18,
+                    "y": 34
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 36,
+                        "y": 0
+                      },
+                      {
+                        "x": 36,
+                        "y": 68
+                      },
+                      {
+                        "x": 0,
+                        "y": 68
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewSprite38",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite38",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 24,
+                    "y": 48
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 12
+                      },
+                      {
+                        "x": 36,
+                        "y": 12
+                      },
+                      {
+                        "x": 36,
+                        "y": 76
+                      },
+                      {
+                        "x": 4,
+                        "y": 76
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewSprite56",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite56",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 24,
+                    "y": 48
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 12
+                      },
+                      {
+                        "x": 36,
+                        "y": 12
+                      },
+                      {
+                        "x": 36,
+                        "y": 76
+                      },
+                      {
+                        "x": 4,
+                        "y": 76
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite4",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite4",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite36",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 32,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite5",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite5",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite37",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 32,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewSprite49",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite50",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 36,
+                    "y": 36
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "ScoreText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "0",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 150,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite6",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite6",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite39",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 4,
+                    "y": 56
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 8,
+                        "y": 0
+                      },
+                      {
+                        "x": 8,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "TimerBar",
+      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "ShowLabel": false,
+        "InitialValue": 600,
+        "MaxValue": 600,
+        "EasingDuration": 0
+      },
+      "childrenContent": {
+        "Background": {
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "New image4",
+          "tiled": true,
+          "topMargin": 0,
+          "width": 1280
+        },
+        "Buffer": {
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "New image4",
+          "tiled": true,
+          "topMargin": 0,
+          "width": 1280
+        },
+        "FillBar": {
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "New image3",
+          "tiled": true,
+          "topMargin": 0,
+          "width": 1280
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "2 / 3",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        }
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "NewSprite3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite46",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite73",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite74",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 24,
+                    "y": 48
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 12
+                      },
+                      {
+                        "x": 36,
+                        "y": 12
+                      },
+                      {
+                        "x": 36,
+                        "y": 76
+                      },
+                      {
+                        "x": 4,
+                        "y": 76
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewSprite57",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite58",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 24,
+                    "y": 48
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewSprite59",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite59",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 24,
+                    "y": 48
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "TutorialText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Click the knife to pick it up",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 50,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite7",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite7",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite48",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 4,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 8,
+                        "y": 0
+                      },
+                      {
+                        "x": 8,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite8",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite8",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite65",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Transitions",
+      "type": "PrimitiveDrawing::Drawer",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "FlashTransitionPainter",
+          "type": "FlashTransitionPainter::FlashTransitionPainter",
+          "Timer": 1,
+          "Color": "255;255;255",
+          "Type": "",
+          "Direction": "",
+          "MaxOpacity": 255
+        }
+      ],
+      "fillOpacity": 255,
+      "outlineSize": 1,
+      "outlineOpacity": 255,
+      "fillColor": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "outlineColor": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": true,
+      "antialiasing": "none"
+    },
+    {
+      "additive": false,
+      "assetStoreId": "",
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 90,
+      "emitterForceMax": 360,
+      "emitterForceMin": 270,
+      "flow": 10000,
+      "jumpForwardInTimeOnCreation": 0,
+      "maxParticleNb": 300,
+      "name": "NewParticlesEmitter",
+      "particleAlpha1": 204,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 0,
+      "particleAngle2": 0,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 255,
+      "particleBlue2": 255,
+      "particleGravityX": 0,
+      "particleGravityY": 250,
+      "particleGreen1": 255,
+      "particleGreen2": 255,
+      "particleLifeTimeMax": 10,
+      "particleLifeTimeMin": 5,
+      "particleRed1": 255,
+      "particleRed2": 255,
+      "particleSize1": 100,
+      "particleSize2": 50,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 3,
+      "rendererParam2": 1,
+      "rendererType": "Point",
+      "tank": 25,
+      "textureParticleName": "",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 3,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite9",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite9",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite77",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 112,
+                    "y": 48
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 224,
+                        "y": 0
+                      },
+                      {
+                        "x": 224,
+                        "y": 96
+                      },
+                      {
+                        "x": 0,
+                        "y": 96
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "additive": false,
+      "assetStoreId": "",
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 360,
+      "emitterForceMax": 360,
+      "emitterForceMin": 270,
+      "flow": 1000,
+      "jumpForwardInTimeOnCreation": 0,
+      "maxParticleNb": 300,
+      "name": "NewParticlesEmitter2",
+      "particleAlpha1": 204,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 0,
+      "particleAngle2": 0,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 106,
+      "particleBlue2": 187,
+      "particleGravityX": 0,
+      "particleGravityY": 0,
+      "particleGreen1": 255,
+      "particleGreen2": 255,
+      "particleLifeTimeMax": 2.5,
+      "particleLifeTimeMin": 0.5,
+      "particleRed1": 91,
+      "particleRed2": 188,
+      "particleSize1": 100,
+      "particleSize2": 25,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 3,
+      "rendererParam2": 1,
+      "rendererType": "Point",
+      "tank": -1,
+      "textureParticleName": "",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 3,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "NewSprite"
+      },
+      {
+        "objectName": "NewSprite2"
+      },
+      {
+        "objectName": "NewSprite4"
+      },
+      {
+        "objectName": "NewSprite5"
+      },
+      {
+        "objectName": "ScoreText"
+      },
+      {
+        "objectName": "NewSprite6"
+      },
+      {
+        "objectName": "TimerBar"
+      },
+      {
+        "objectName": "NewSprite3"
+      },
+      {
+        "objectName": "TutorialText"
+      },
+      {
+        "objectName": "NewSprite7"
+      },
+      {
+        "objectName": "NewSprite8"
+      },
+      {
+        "objectName": "Transitions"
+      },
+      {
+        "objectName": "NewParticlesEmitter"
+      },
+      {
+        "objectName": "NewSprite9"
+      },
+      {
+        "objectName": "NewParticlesEmitter2"
+      }
+    ]
+  },
+  "events": [
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Repeat",
+      "repeatExpression": "ceil(Difficulty / 3)",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "Tutorial",
+                "False"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Yes",
+                "=",
+                "RandomInRange(1,ceil(500 / Difficulty))"
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Yes",
+                "!=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "NewSprite2",
+                "NewSprite.X() + RandomInRange(-256,256)",
+                "NewSprite.Y() + RandomInRange(-128,128)",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "NewSprite2",
+                "Draggable",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Yes",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "NewSprite3",
+                "NewSprite.X() + RandomInRange(-256,256)",
+                "NewSprite.Y() + RandomInRange(-128,128)",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "NewSprite3",
+                "Draggable",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "Variable",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "NewSprite6",
+            "-100",
+            "-100",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "NewSprite5",
+            "Opacity",
+            "=",
+            "125"
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "NewSprite6",
+            "=",
+            "CursorX()",
+            "=",
+            "CursorY()"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "Tutorial",
+            "True"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+          },
+          "parameters": [
+            "Transitions",
+            "FlashTransitionPainter",
+            "\"0;0;0\"",
+            "1",
+            "\"Circular\"",
+            "\"Backward\"",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "Group",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "NewSprite6",
+            "Group",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "VarScene"
+          },
+          "parameters": [
+            "Variable",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Index"
+          },
+          "parameters": [
+            "Group",
+            "Animation",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Group",
+            "Animation",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetObjectVariableAsBoolean"
+          },
+          "parameters": [
+            "Group",
+            "Draggable",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Group",
+            "-",
+            "16",
+            "-",
+            "16"
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "NewSprite8",
+            "Group.X() + 16",
+            "Group.Y() + 16",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "NewSprite8",
+            "=",
+            "-1"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "NewSprite8",
+            "Opacity",
+            "=",
+            "125"
+          ]
+        },
+        {
+          "type": {
+            "value": "LinkedObjects::LinkObjects"
+          },
+          "parameters": [
+            "",
+            "NewSprite8",
+            "Group"
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarScene"
+          },
+          "parameters": [
+            "Variable",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "ObjectVariableAsBoolean"
+          },
+          "parameters": [
+            "Group",
+            "Draggable",
+            "True"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Group",
+            "Draggable",
+            "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Variable",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Group",
+            "Draggable",
+            "no"
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Index"
+          },
+          "parameters": [
+            "Group",
+            "Animation",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": []
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "Group",
+      "conditions": [
+        {
+          "type": {
+            "value": "LinkedObjects::PickObjectsLinkedTo"
+          },
+          "parameters": [
+            "",
+            "NewSprite8",
+            "Group",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "NewSprite8",
+            "=",
+            "Group.X() + 16",
+            "=",
+            "Group.Y() + 16"
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "NewSprite3",
+            "NewSprite4",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "VarScene"
+          },
+          "parameters": [
+            "Variable",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Score",
+            "+",
+            "Difficulty * 5"
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Group",
+            "NewSprite4",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "VarScene"
+          },
+          "parameters": [
+            "Variable",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "LinkedObjects::PickObjectsLinkedTo"
+          },
+          "parameters": [
+            "",
+            "NewSprite8",
+            "Group",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "NewParticlesEmitter",
+            "Group.X()",
+            "Group.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetAngle"
+          },
+          "parameters": [
+            "NewParticlesEmitter",
+            "=",
+            "270"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Group",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "NewSprite8",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "NewSprite5",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "VarScene"
+          },
+          "parameters": [
+            "Variable",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.000001"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "Variable",
+            "=",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "NewSprite5",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "VarScene"
+          },
+          "parameters": [
+            "Variable",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.000001"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "Variable",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "ScoreText",
+            "Text",
+            "=",
+            "Variable"
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarScene"
+          },
+          "parameters": [
+            "Variable",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "NewSprite6",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "NewSprite7"
+          ]
+        },
+        {
+          "type": {
+            "value": "CacheSouris"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarScene"
+          },
+          "parameters": [
+            "Variable",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "NewSprite6",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "NewSprite7",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MontreSouris"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "NewSprite5",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "NewSprite5",
+            "Animation",
+            "=",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "NewSprite5",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "NewSprite5",
+            "Animation",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "disabled": true,
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneInstancesCount"
+          },
+          "parameters": [
+            "",
+            "Group",
+            "<=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "Tutorial",
+            "False"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "RandomLevel",
+            "+",
+            "RandomInRange(1,3)"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Difficulty",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Timer",
+            "+",
+            "Difficulty / 3 + 4 * 10"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "RandomLevel",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Shapes\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "RandomLevel",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Weight\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "RandomLevel",
+                "=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Building\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "disabled": true,
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneInstancesCount"
+          },
+          "parameters": [
+            "",
+            "Group",
+            "<=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "Tutorial",
+            "True"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Menu\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"second\""
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"second\"",
+            ">=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "Tutorial",
+            "False"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Timer",
+            "-",
+            "5"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Score",
+            "+",
+            "Difficulty * 5"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"second\""
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "TimerBar",
+            "=",
+            "Timer",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarGlobal"
+          },
+          "parameters": [
+            "Timer",
+            ">",
+            "600"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Timer",
+            "=",
+            "600"
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarGlobal"
+          },
+          "parameters": [
+            "Timer",
+            "<=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Leaderboard\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "ScoreText",
+            "Text",
+            "=",
+            "Score"
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "Tutorial",
+            "True"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"Tutorial\""
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarScene"
+          },
+          "parameters": [
+            "Tcount",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "VarScene"
+          },
+          "parameters": [
+            "Variable",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "Tcount",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "TutorialText",
+            "Text",
+            "=",
+            "\"Hold click with the knife to scale the fish\""
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarScene"
+          },
+          "parameters": [
+            "Tcount",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Index"
+          },
+          "parameters": [
+            "NewSprite2",
+            "Animation",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "Tcount",
+            "=",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "TutorialText",
+            "Text",
+            "=",
+            "\"Click the box again to put the knife back\""
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarScene"
+          },
+          "parameters": [
+            "Tcount",
+            "=",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "VarScene"
+          },
+          "parameters": [
+            "Variable",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "Tcount",
+            "=",
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "TutorialText",
+            "Text",
+            "=",
+            "\"Drag the scales into the left box\""
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Index"
+          },
+          "parameters": [
+            "Group",
+            "Animation",
+            "=",
+            "2"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Group",
+            "Animation",
+            "=",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Group",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Index"
+          },
+          "parameters": [
+            "Group",
+            "Animation",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "VarScene"
+          },
+          "parameters": [
+            "Variable",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Group",
+            "Animation",
+            "=",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "NewSprite9"
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "NewSprite9",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "Tutorial",
+            "False"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "RandomLevel",
+            "+",
+            "RandomInRange(1,3)"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Difficulty",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Timer",
+            "+",
+            "Difficulty / 3 + 4 * 10"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "RandomLevel",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Shapes\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "RandomLevel",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Weight\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "RandomLevel",
+                "=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Building\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "NewSprite9",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "NewSprite9"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectScaleTween2"
+          },
+          "parameters": [
+            "NewSprite9",
+            "Tween",
+            "\"Yes\"",
+            "1.25",
+            "1.25",
+            "\"linear\"",
+            "0.25",
+            "",
+            "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "NewSprite9",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "NewSprite9"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectScaleTween2"
+          },
+          "parameters": [
+            "NewSprite9",
+            "Tween",
+            "\"Yes\"",
+            "0.9",
+            "0.9",
+            "\"linear\"",
+            "0.25",
+            "",
+            "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "NewSprite9",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "NewSprite9"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectScaleTween2"
+          },
+          "parameters": [
+            "NewSprite9",
+            "Tween",
+            "\"Yes\"",
+            "1",
+            "1",
+            "\"linear\"",
+            "0.25",
+            "",
+            "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "NewSprite9"
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "NewSprite9",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "Tutorial",
+            "True"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+          },
+          "parameters": [
+            "Transitions",
+            "FlashTransitionPainter",
+            "\"0;0;0\"",
+            "1",
+            "\"Circular\"",
+            "\"Forward\"",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Menu\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "NewSprite9"
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneInstancesCount"
+          },
+          "parameters": [
+            "",
+            "Group",
+            "<=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "NewSprite9",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneInstancesCount"
+          },
+          "parameters": [
+            "",
+            "Group",
+            "<=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SceneInstancesCount"
+          },
+          "parameters": [
+            "",
+            "NewParticlesEmitter2",
+            "<=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "NewParticlesEmitter2",
+            "NewSprite9.X()",
+            "NewSprite9.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "NewParticlesEmitter2",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Tutorial",
+      "renderingType": "",
+      "visibility": false,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Layer",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "FlashTransitionPainter",
+      "type": "FlashTransitionPainter::FlashTransitionPainter"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
+    }
+  ]
+}
