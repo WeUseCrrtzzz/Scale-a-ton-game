@@ -833,7 +833,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite42",
+                  "image": "NewSprite79",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -850,19 +850,68 @@
                     [
                       {
                         "x": 0,
-                        "y": 0
+                        "y": 32
                       },
                       {
                         "x": 128,
-                        "y": 0
+                        "y": 32
                       },
                       {
                         "x": 128,
-                        "y": 128
+                        "y": 96
                       },
                       {
                         "x": 0,
-                        "y": 128
+                        "y": 96
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite80",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 68,
+                    "y": 68
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 32
+                      },
+                      {
+                        "x": 128,
+                        "y": 32
+                      },
+                      {
+                        "x": 128,
+                        "y": 96
+                      },
+                      {
+                        "x": 0,
+                        "y": 96
                       }
                     ]
                   ]
@@ -911,19 +960,19 @@
                     [
                       {
                         "x": 0,
-                        "y": 0
+                        "y": 32
                       },
                       {
                         "x": 128,
-                        "y": 0
+                        "y": 32
                       },
                       {
                         "x": 128,
-                        "y": 128
+                        "y": 96
                       },
                       {
                         "x": 0,
-                        "y": 128
+                        "y": 96
                       }
                     ]
                   ]

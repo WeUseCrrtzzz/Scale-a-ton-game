@@ -482,7 +482,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite43.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite43.png\"}",
         "name": "NewSprite43",
         "smoothed": false,
         "userAdded": true
@@ -500,7 +500,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite45.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite45.png\"}",
         "name": "NewSprite45",
         "smoothed": false,
         "userAdded": true
@@ -873,6 +873,66 @@
         "name": "NewSprite77",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite78.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite78",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/kenvector_future.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "09884c158c08409269c534b1e1e64a36a21f087bd06f66cff077a91788a4ec9a_kenvector_future.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/09884c158c08409269c534b1e1e64a36a21f087bd06f66cff077a91788a4ec9a_kenvector_future.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Tangerine-Bold.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "63ed629ffceb2e323f5c3b471bdc70d24d2188f548e8ab5520bd2321a331c791_Tangerine-Bold.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/63ed629ffceb2e323f5c3b471bdc70d24d2188f548e8ab5520bd2321a331c791_Tangerine-Bold.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/MarckScript-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "0c0f9729a41f6779286ac7fccccf931cbe12c338d96b95808d920296559bb5d9_MarckScript-Regular.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/0c0f9729a41f6779286ac7fccccf931cbe12c338d96b95808d920296559bb5d9_MarckScript-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite79.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite79",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite80.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite80",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

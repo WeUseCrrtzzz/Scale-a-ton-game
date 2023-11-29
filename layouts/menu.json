@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.7876290101673757,
+    "zoomFactor": 0.7370816317994032,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -102,11 +102,18 @@
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "Yes",
+          "type": "boolean",
+          "value": false
+        }
+      ],
       "effects": [],
       "behaviors": [],
-      "string": "Title",
-      "font": "",
+      "string": "Scale-A-Ton",
+      "font": "0c0f9729a41f6779286ac7fccccf931cbe12c338d96b95808d920296559bb5d9_MarckScript-Regular.ttf",
       "textAlignment": "center",
       "characterSize": 200,
       "color": {
@@ -341,6 +348,16 @@
             "Score",
             "=",
             "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::SetOutline"
+          },
+          "parameters": [
+            "Title",
+            "\"0;0;0\"",
+            "5"
           ]
         }
       ]
@@ -836,8 +853,135 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "ObjectVariableAsBoolean"
+          },
+          "parameters": [
+            "Title",
+            "Yes",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ScalableCapability::ScalableBehavior::Value"
+          },
+          "parameters": [
+            "Title",
+            "Scale",
+            ">=",
+            "1.1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetObjectVariableAsBoolean"
+          },
+          "parameters": [
+            "Title",
+            "Yes",
+            "True"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ObjectVariableAsBoolean"
+          },
+          "parameters": [
+            "Title",
+            "Yes",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "ScalableCapability::ScalableBehavior::Value"
+          },
+          "parameters": [
+            "Title",
+            "Scale",
+            "<=",
+            "0.9"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetObjectVariableAsBoolean"
+          },
+          "parameters": [
+            "Title",
+            "Yes",
+            "False"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ObjectVariableAsBoolean"
+          },
+          "parameters": [
+            "Title",
+            "Yes",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ScalableCapability::ScalableBehavior::SetValue"
+          },
+          "parameters": [
+            "Title",
+            "Scale",
+            "+",
+            "0.001"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ObjectVariableAsBoolean"
+          },
+          "parameters": [
+            "Title",
+            "Yes",
+            "True"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ScalableCapability::ScalableBehavior::SetValue"
+          },
+          "parameters": [
+            "Title",
+            "Scale",
+            "-",
+            "0.001"
+          ]
+        }
+      ]
     }
   ],
   "layers": [

@@ -59,13 +59,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 256,
+      "height": 384,
       "layer": "",
       "name": "NewSprite",
       "persistentUuid": "87b67cf1-53d4-4aa6-8a72-8c2aa9e3e23f",
-      "width": 512,
-      "x": 640,
-      "y": 360,
+      "width": 768,
+      "x": 608,
+      "y": 352,
       "zOrder": -5,
       "numberProperties": [],
       "stringProperties": [],
@@ -73,14 +73,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
       "layer": "",
       "name": "NewSprite4",
       "persistentUuid": "88be8288-e33a-499d-9c4f-d2085d01d8e8",
-      "width": 0,
-      "x": 64,
-      "y": 672,
+      "width": 96,
+      "x": 80,
+      "y": 656,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -618,7 +619,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite36",
+                  "image": "NewSprite78",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -634,19 +635,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 8,
+                        "y": 8
                       },
                       {
-                        "x": 64,
-                        "y": 0
+                        "x": 56,
+                        "y": 8
                       },
                       {
-                        "x": 64,
+                        "x": 56,
                         "y": 64
                       },
                       {
-                        "x": 0,
+                        "x": 8,
                         "y": 64
                       }
                     ]
@@ -1496,7 +1497,7 @@
       "particleSize2": 25,
       "particleSizeRandomness1": 0,
       "particleSizeRandomness2": 0,
-      "rendererParam1": 3,
+      "rendererParam1": 5,
       "rendererParam2": 1,
       "rendererType": "Point",
       "tank": -1,
@@ -1560,7 +1561,6 @@
   },
   "events": [
     {
-      "folded": true,
       "type": "BuiltinCommonInstructions::Repeat",
       "repeatExpression": "ceil(Difficulty / 3)",
       "conditions": [
@@ -1625,7 +1625,7 @@
               "parameters": [
                 "",
                 "NewSprite2",
-                "NewSprite.X() + RandomInRange(-256,256)",
+                "NewSprite.X() + 128 + RandomInRange(-256,256)",
                 "NewSprite.Y() + RandomInRange(-128,128)",
                 ""
               ]
@@ -1665,7 +1665,7 @@
               "parameters": [
                 "",
                 "NewSprite3",
-                "NewSprite.X() + RandomInRange(-256,256)",
+                "NewSprite.X() + 128 + RandomInRange(-256,256)",
                 "NewSprite.Y() + RandomInRange(-128,128)",
                 ""
               ]
@@ -3005,7 +3005,7 @@
             "TutorialText",
             "Text",
             "=",
-            "\"Drag the scales into the left box\""
+            "\"Drag the scales into the left bin\""
           ]
         }
       ]
